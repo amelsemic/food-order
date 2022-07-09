@@ -55,10 +55,19 @@
 }
 
 .invalid label {
+ font-weight: bold;
+ margin-bottom: 0.25rem;
+ display: block;
  color: #ca3e51;
 }
 
 .invalid input {
- border-color: #aa0b20;
+    font: inherit;
+    border: 1px solid #aa0b20;
+    border-radius: 4px;
+    width: 20rem;
+    max-width: 100%;
+
+ 
  background-color: #ffeff1;
 }
