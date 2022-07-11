@@ -6,9 +6,9 @@ import BeatLoader from "react-spinners/BeatLoader";
 
 const AvailableMeals = () => {
   const [meals, setMeals] = useState([]);
-
   const [isLoading, setIsLoading] = useState(false);
   const [httpError, setHttpError] = useState();
+
   useEffect(() => {
     const fetchMeals = async () => {
       setIsLoading(true);

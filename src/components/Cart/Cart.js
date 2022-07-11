@@ -44,8 +44,6 @@ const Cart = (props) => {
     setIsSubmitting(false);
     setDidSubmit(true);
     cartCtx.newOrder = true;
-
-    
   };
 
   const cartItems = (
