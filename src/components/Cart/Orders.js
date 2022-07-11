@@ -71,7 +71,7 @@ const Orders = (props) => {
   return (
     <Modal onClose={props.onClose}>
       <div className={classes.orders}>
-        <h1 >previously oredered...</h1>
+        <h1 >previously ordered...</h1>
         {reports.map((report) => (
             <span style={{ whiteSpace: "pre-wrap" }}>{report} </span>
         ))}

@@ -29,11 +29,10 @@ function App() {
 
   return (
     <CartProvider>
-      {cartIsShown && <Cart onClose={hideCartHandler} />}
-      {ordersShown && <Orders onClose={hideOrdersHandler} />}
-
       <Header onShowCart={showCartHandler} onShowOrders={showOrdersHandler} />
 
+      {cartIsShown && <Cart onClose={hideCartHandler} />}
+      {ordersShown && <Orders onClose={hideOrdersHandler} />}
       <main>
         <Meals />
       </main>
